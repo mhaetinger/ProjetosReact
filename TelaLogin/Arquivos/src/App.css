@@ -1,0 +1,34 @@
+*{
+
+  margin: 0c;
+  padding: 0;
+  font-family: Helvetica;
+  box-sizing: border-box;
+  text-shadow: #000 1px 1px;
+  font-family: Helvetica;
+
+}
+
+.app {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("/assets/bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.input-field input::placeholder {
+  color: #fff;
+}
+
+.input-field .icon{
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #fff;
+}
